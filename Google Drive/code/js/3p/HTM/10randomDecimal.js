@@ -6,7 +6,8 @@ function number(){
     {
         var i= Math.random();
 
-        random = random + i;
+        random = random + i + "\n";
+        
         
     }
     document.getElementById("textarea").innerHTML = random;
